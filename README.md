@@ -17,3 +17,4 @@ Ported from html/css to react. Hosted on gh pages.
 * Add a color picker
 * Sticky navbar?
 * Add something to the game (a gun maybe? or a comment section)
+* Make mobile a SPA experience
