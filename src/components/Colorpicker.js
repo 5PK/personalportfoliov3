@@ -21,6 +21,7 @@ class ColorPicker extends React.Component {
   setBgColor(){
     window.localStorage.setItem('bg-color', this.props.hex);
     document.documentElement.style.setProperty('--bg-color', this.props.hex);
+    this.props.setHexColor(this.props.hex);
   }
 
   render() {
