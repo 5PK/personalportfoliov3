@@ -69,8 +69,8 @@ box-shadow: 0 1px 0 0 black;
 }
 
 .homeLink:hover{
-  padding-bottom: 5px;
-  border-bottom: 2px solid black;
-  border-radius: 5px;
-  transition:border .3s;
+  margin-bottom: 2px;
+  border-bottom: 1px solid black;
+  box-shadow: 0 1px 0 0 black;
+  transition:box-shadow .4s, border .4s;
 }
