@@ -13,6 +13,7 @@ export default function NavBar() {
             <li><Link to='/experience' className="black-text">experience</Link></li>
             <li><Link to='/projects'className="black-text">personal projects</Link></li>
             <li><Link to='/35mm'className="black-text">35mm</Link></li>
+            <li><a class="black-text" href={`https://5pk.github.io/espirit-de-corps/index.html?bgColor=${color.replace('#', '')}`}>check out my game!</a></li>
             <li className="valign-wrapper">
               <ColorPickerWrapped
                 color={color}
