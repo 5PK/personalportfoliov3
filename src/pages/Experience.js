@@ -1,5 +1,5 @@
 import React from 'react';
-import * as c from './Styled.Components'
+import * as c from '../components/Styled.Components'
 
 function Experience() {
     return (
@@ -13,7 +13,7 @@ function Experience() {
                         <div className="card white z-depth-0">
                             <div className="card-content black-text">
                                 <span className="card-title">Method Integration</span>
-                                <c.blockquote>Intermediate Full Stack developer. Focused on React and dotnet core</c.blockquote>
+                                <c.blockquote>Intermediate Full Stack developer. Focused on React and dotnet core.</c.blockquote>
                             </div>
                         </div>
 
@@ -31,7 +31,7 @@ function Experience() {
                         <div className="card white z-depth-0">
                             <div className="card-content black-text">
                                 <span className="card-title">Evenica Corp.</span>
-                                <c.blockquote>I interned at Evenica Corp. as a TSQL Developer.</c.blockquote>
+                                <c.blockquote>I interned at Evenica as a TSQL Developer.</c.blockquote>
                             </div>
                         </div>
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import * as c from './Styled.Components'
+import * as c from '../components/Styled.Components'
 
 function Experience() {
     return (

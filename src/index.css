@@ -5,9 +5,72 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: var(--bg-color);
+}
+.z-depth-0{
+  background-color: var(--bg-color);
+}
+
+.card-content{
+  background-color: var(--bg-color);
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+._dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+._dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  border-radius:10px;
+  border:2px solid black;
+  opacity: 0%;
+}
+
+._dropdown:hover ._dropdown-content {
+  display: block;
+  opacity:100%;
+  transition:opacity 4s;
+}
+
+.saturation-black{
+  border-radius:10px 10px 0 0;
+}
+
+.saturation-white{
+  border-radius:10px 10px 0 0;
+}
+
+.hue-horizontal{
+  border-radius: 0 0 10px 10px;
+}
+
+
+
+#reset-this:hover{
+box-shadow: 0 1px 0 0 black;
+}
+
+#reset-this:focus{
+  box-shadow: 0 1px 0 0 black;
+}
+
+.picker{
+  cursor: pointer;
+}
+
+.homeLink:hover{
+  padding-bottom: 5px;
+  border-bottom: 2px solid black;
+  border-radius: 5px;
+  transition:border .3s;
 }
