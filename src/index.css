@@ -74,3 +74,7 @@ box-shadow: 0 1px 0 0 black;
   box-shadow: 0 1px 0 0 black;
   transition:box-shadow .4s, border .4s;
 }
+
+.card .card-content {
+  border-radius: 0 0 2px 2px;
+}
