@@ -11,7 +11,7 @@ function Experience() {
 
                 <ul>
                     <li>
-                        <div className="card white z-depth-0">
+                        <div className="card z-depth-0">
                             <div className="card-content black-text">
                                 <span className="card-title">Seize Alert</span>
                                 <c.blockquote>Prototype mobile application using BLE wrist sensors to detect erratic movements, to be applied to epilepsy patients or falls.
@@ -22,7 +22,7 @@ function Experience() {
 
                     </li>
                     <li>
-                        <div className="card white z-depth-0">
+                        <div className="card z-depth-0">
                             <div className="card-content black-text">
                                 <span className="card-title">Patent Alert</span>
                                 <c.blockquote>Client Management System which emails notifications based on matching patents. Written in React Web and Express.js.</c.blockquote>
@@ -31,7 +31,7 @@ function Experience() {
 
                     </li>
                     <li>
-                        <div className="card white z-depth-0">
+                        <div className="card z-depth-0">
                             <div className="card-content black-text">
                                 <span className="card-title">silk</span>
                                 <c.blockquote>Another python microblog using markdown to display blogposts. Upgrade in the works.</c.blockquote>
@@ -40,7 +40,7 @@ function Experience() {
 
                     </li>
                     <li>
-                        <div className="card white z-depth-0">
+                        <div className="card z-depth-0">
                             <div className="card-content black-text">
                                 <span className="card-title">text-to-thought</span>
                                 <c.blockquote>A simple text messaging service that logs your text message where you can view it on a webpage

@@ -10,7 +10,7 @@ function Experience() {
             <c.pageContent className="row">
                 <ul>
                     <li>
-                        <div className="card white z-depth-0">
+                        <div className="card z-depth-0">
                             <div className="card-content black-text">
                                 <span className="card-title">Method Integration</span>
                                 <c.blockquote>Intermediate Full Stack developer. Focused on React and dotnet core.</c.blockquote>
@@ -19,7 +19,7 @@ function Experience() {
 
                     </li>
                     <li>
-                        <div className="card white z-depth-0">
+                        <div className="card z-depth-0">
                             <div className="card-content black-text">
                                 <span className="card-title">MiStall Insight Inc.</span>
                                 <c.blockquote>My first official full-time software gig!  My official title was Junior Software Engineer, but I had my hands in a lot of pots.</c.blockquote>
@@ -28,7 +28,7 @@ function Experience() {
 
                     </li>
                     <li>
-                        <div className="card white z-depth-0">
+                        <div className="card z-depth-0">
                             <div className="card-content black-text">
                                 <span className="card-title">Evenica Corp.</span>
                                 <c.blockquote>I interned at Evenica as a TSQL Developer.</c.blockquote>
@@ -37,7 +37,7 @@ function Experience() {
 
                     </li>
                     <li>
-                        <div className="card white z-depth-0">
+                        <div className="card z-depth-0">
                             <div className="card-content black-text">
                                 <span className="card-title">Tomson Automotive</span>
                                 <c.blockquote>Oil Changes, Brake jobs etc.</c.blockquote>
