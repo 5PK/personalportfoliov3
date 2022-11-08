@@ -76,9 +76,9 @@ box-shadow: 0 1px 0 0 black;
 }
 
 .card  {
-  background-color: var(--bg-color);
+  background-color: var(--bg-color) !important;
 }
 
 .card .card-content {
-  background-color: var(--bg-color);
+  background-color: var(--bg-color) !important;
 }
